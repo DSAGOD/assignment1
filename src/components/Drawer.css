@@ -1,0 +1,83 @@
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 30px;
+  height: 3rem;
+  width: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 6px 8px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 4rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 25vh;
+    margin: 20px;
+}
+.main-pg{
+  min-height:100vh;
+  border:1px solid white
+}
+.bold{
+  font-weight:600;
+}
+.name_container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
